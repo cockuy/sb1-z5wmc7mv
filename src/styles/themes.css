@@ -1,0 +1,30 @@
+/* Theme variables */
+:root {
+  --primary-color: theme('colors.india-blue');
+  --secondary-color: theme('colors.india-orange');
+}
+
+/* IPL Theme */
+.theme-ipl {
+  --primary-color: #004BA0;
+  --secondary-color: #FF1744;
+}
+
+/* World Cup Theme */
+.theme-worldcup {
+  --primary-color: #1A237E;
+  --secondary-color: #FFD700;
+}
+
+/* Apply theme colors */
+.themed-bg {
+  background-color: var(--primary-color);
+}
+
+.themed-text {
+  color: var(--primary-color);
+}
+
+.themed-border {
+  border-color: var(--primary-color);
+}
